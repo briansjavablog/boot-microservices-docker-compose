@@ -1,8 +1,7 @@
-FROM maven:3.5.2-jdk-8-alpine AS MAVEN_BUILD
-
-MAINTAINER Brian Hannaway
 
 FROM openjdk:8-jre-alpine
+
+MAINTAINER Brian Hannaway
 
 WORKDIR /app
 
